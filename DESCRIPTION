@@ -1,0 +1,17 @@
+Package: montyhall
+Title: Montyhall Game Simulation
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Corey",
+           family = "Williams",
+           role = c("aut", "cre"),
+           email = "corey.a.williams@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Repliocates the TV game show "Let's Make a Deal," wherein a contestent tries to win a car by picking a lucky door. The winning car is behind one of three doors with the other two doors hiding a losing goat. The player initially picks one of three doors at random.  Then, the game host reveals a losing goat door to the player that is neither the wining car door, nor the door originally picked by the player. Given this updated knowledge, the player can make a final door choice by either choosing to switch or retain their choice of door with the aim of selecting the winning car door. If the player's final door choice has the car behind it, they win; elsewise, revealing a goat behing the door of final choice means they lose. This simulation tests for the winningest strategy for final door choice, retaining the first door choice or swiching doors, to see which is most probable to win. 
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
